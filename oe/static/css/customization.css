@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+#sidebar {
+  
+  width: 250px;
+  height: 100%;
+  margin-left: 50px;
+  left: -250px;
+  transition: all 500ms linear;
+  
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  color: black;
+  list-style-type:none;
+  padding: 15px 10px;
+}
+
+.bodycontent {
+	margin-left:350px; 
+	margin-right:350px; 
+	margin-top:100px;
+	
+}
